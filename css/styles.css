@@ -43,18 +43,20 @@ aside{
 	height: 100%;
 	border: 1px solid #dee2e6;
 	padding: 22px;	
-	background: #fff;
+	background: #fff;	
 }
 .logo img{	
 	height: 100%;
 	margin: auto;
 }
 .explicacion:hover .interprete-explicacion,
-.ejemplos:hover .interprete-ejemplos{
+.ejemplos:hover .interprete-ejemplos,
+.principal:hover .interprete-principal{
 	display: block;	
 }
-.accordion .interprete-explicacion,
-.accordion .interprete-ejemplos{
+.interprete-explicacion,
+.interprete-ejemplos,
+.interprete-principal{
 	display: none;
 	width: 160px;
 	height: auto;
@@ -76,7 +78,8 @@ aside{
 /* Contenido */
 main{
 	width: 100%;	
-	height: 100%;	
+	height: 100%;
+	padding-left: 250px;		
 }
 main .interprete{
 	width: 200px;
@@ -87,9 +90,23 @@ main .interprete{
 	border-bottom: 0;
 	border-right: 0;
 }
-main iframe{
-	width: 100%;
-	height: 100%;
-	padding-left: 250px;
-	border: 0;	
+.contenedor-contenido{
+}
+.contenedor-contenido h3{
+	background: #EEF5F9;
+}
+.contenedor-contenido .icono-manos{
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;	
+}
+.primer-texto .icono-manos{	
+	width: 35px;
+	height: auto;
+	float: left;
+}
+.primer-texto p{	
+	width: 90%;
+	text-align: justify;
+	float: left;
 }
