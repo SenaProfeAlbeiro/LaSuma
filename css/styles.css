@@ -7,8 +7,7 @@
 /* Contenedor */
 .container-fluid{
 	width: 100%;	
-	height: 500px;
-	border-bottom: 1px solid #dee2e6;
+	height: 500px;	
 }
 
 /* Navegador */
@@ -22,6 +21,7 @@ nav{
 section{
 	width: 100%;
 	height: 100%;
+	border: 1px solid #dee2e6;
 }
 
 /* Panel Lateral */
