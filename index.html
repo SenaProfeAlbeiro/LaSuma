@@ -9,15 +9,52 @@
 </head>
 <body>
 	<!-- Contenedor -->
-	<div class="container-fluid p-0 rounded-top border">
-		<!-- Navegador -->
-		<nav class="p-2 font-weight-bold">La Suma</nav>
+	<div class="container-fluid p-0 rounded-top">
 		<!-- Área de Trabajo -->
-		<section>
+		<section class="row m-0">
 			<!-- Panel Lateral -->
-			<aside></aside>
+			<aside class="col-2 p-0">
+				<div class="logo p-3 text-center">
+					<img src="img/niño2.png">
+				</div>				
+
+				<div class="accordion" id="accordionExample">
+					<div class="card explicacion">
+						<div class="card-header p-0" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Explicación
+									<img class="interprete-explicacion" src="img/diccionario.gif" alt="">
+								</button>
+							</h2>
+						</div>
+					</div>
+					<div class="card ejemplos">
+						<div class="card-header p-0" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Ejemplos
+									<img class="interprete-ejemplos" src="img/entidad.gif" alt="">
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body pb-0">
+								<ul>
+									<li class="p-1"><a href="" class="text-dark">Ejemplo 1</a></li>
+									<li class="p-1"><a href="" class="text-dark">Ejemplo 2</a></li>
+									<li class="p-1"><a href="" class="text-dark">Ejemplo 3</a></li>
+								</ul>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
 			<!-- Contenido -->
-			<main></main>
+			<main class="col p-0">
+				<img class="interprete" src="img/saludo.gif" alt="">
+				<iframe src=""></iframe>
+			</main>
 		</section>
 	</div>
 	<script src="js/jquery-3.5.1.slim.min.js"></script>
