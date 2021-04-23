@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 /* Contenedor */
@@ -26,9 +28,11 @@ section{
 
 /* Panel Lateral */
 aside{
-	height: 100%;
+	width: 250px;
+	height: 498px;
 	background: #F2C53D;	
 	border-right: 1px solid #dee2e6;
+	position: absolute;
 }
 .logo{
 	height: 45%;
@@ -52,10 +56,10 @@ aside{
 .accordion .interprete-explicacion,
 .accordion .interprete-ejemplos{
 	display: none;
-	width: 200px;
-	height: 165px;
+	width: 160px;
+	height: auto;
 	position: fixed;
-	left: 60px;
+	left: 46px;
 	top: 30px;		
 	border-bottom: 0;
 	border-right: 0;
@@ -71,6 +75,7 @@ aside{
 
 /* Contenido */
 main{
+	width: 100%;	
 	height: 100%;	
 }
 main .interprete{
@@ -85,5 +90,6 @@ main .interprete{
 main iframe{
 	width: 100%;
 	height: 100%;
+	padding-left: 250px;
 	border: 0;	
 }
